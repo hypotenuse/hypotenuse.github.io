@@ -1,0 +1,36 @@
+
+
+.contacts {
+    width: 800px;
+    font-family: "Open Sans";
+}
+
+.contacts__contact {
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    font-size: 13px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #e0e0e0;
+}
+
+.contacts__contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts__contact a:hover {
+    color: black;
+}
+
+.contacts__contact:nth-child(1),
+.contacts__contact:nth-child(2) {
+    cursor: auto;
+}
+.contacts__contact:nth-child(1) {
+    margin-left: 0;
+}
+
+.contacts__contact:first-child { margin-left: 0; }

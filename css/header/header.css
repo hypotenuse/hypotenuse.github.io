@@ -1,0 +1,31 @@
+
+
+.header {
+    width: 100%;
+    font-family: 'Open Sans';
+    background-color: black;
+    margin-top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.header__icon  {
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.header__icon,
+.header__lastedtit {
+    margin: 0 auto;
+}
+
+.header__lastedtit {
+    width: 800px;
+    margin-top: 50px;
+    font-size: 19px;
+    color: white;
+}

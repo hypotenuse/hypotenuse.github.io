@@ -1,0 +1,31 @@
+
+.education {
+    position: relative;
+    width: 800px;
+}
+
+.education__container {
+    position: relative;
+    margin-top: 15px;
+}
+
+.education__timeline-data { display: none; }
+
+.education__timeline-box { cursor: pointer; }
+
+.education__timeline-time,
+.education__timeline-text {
+    font-family: "Open Sans";
+}
+
+.education__timeline-time {
+    font-size: 19px;
+}
+
+.education__timeline-text {
+    font-size: 13px;
+    line-height: 1.2; 
+}
+
+.education__timeline-text b { font-weight: 700; }
+.education__timeline-text p { padding-top: 10px; }

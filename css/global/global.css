@@ -1,0 +1,58 @@
+
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,600,700&subset=latin,cyrillic-ext,greek-ext,greek,latin-ext,cyrillic");
+
+[id^="timelinecircle-"] {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#header-section,
+#brief-section,
+#contacts-section,
+#education-section,
+#experience-section {
+    -webkit-transition: all .25s;
+    transition: all .25s;
+    opacity: 0;
+}
+
+.circlebox {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    -webkit-transition: all .55s;
+    transition: all .55s;
+}
+
+.sp_J3aXknEsZiY {
+    background-image: url(https://www.facebook.com/rsrc.php/v3/yR/r/T3hI4DD5Xk6.png);
+    background-position: 0 -205px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+@-moz-keyframes spin {
+    0% { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin { 
+    0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+.icon {
+    -webkit-animation: spin 41s linear infinite;
+    -moz-animation: spin 41s linear infinite;
+    animation: spin 41s linear infinite;
+}
+
+body section { margin: 40px auto; }
