@@ -11,18 +11,21 @@
     margin: 10px;
     vertical-align: middle;
     font-size: 13px;
+    font-weight: 600;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #e0e0e0;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
 }
 
 .contacts__contact a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .contacts__contact a:hover {
-    color: black;
+    color: white;
 }
 
 .contacts__contact:nth-child(1),
@@ -32,5 +35,10 @@
 .contacts__contact:nth-child(1) {
     margin-left: 0;
 }
+
+.contacts__contact:nth-child(4) {
+    background-color: #4a76a8;
+}
+
 
 .contacts__contact:first-child { margin-left: 0; }
