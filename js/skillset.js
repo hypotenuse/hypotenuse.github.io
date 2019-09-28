@@ -35,6 +35,6 @@ const initializeCircleBoxes = (circleParams) => {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+setTimeout(() => {
     initializeCircleBoxes({ bg: '#ccc', bgHover: '#4a86e8' })
-})
+}, 1000)
