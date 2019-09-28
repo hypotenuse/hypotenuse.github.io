@@ -15,9 +15,9 @@
 }
 
 .brief__phwrapper {
-    width: 275px;
-    height: 275px;
-    border-radius: 100%;
+    width: 265px;
+    height: 450px;
+    border-radius: 4px;
     overflow: hidden;
     position: relative;
 }
@@ -26,7 +26,9 @@
 .brief__phwrapper:after {
     opacity: 0;
     position: absolute;
-    transition: all .25s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    transition: all .1s;
 }
 
 .brief__phwrapper:before {
@@ -95,7 +97,8 @@
 .brief__text b { font-weight: 700; }
 
 .brief__fullname {
-    font-size: 37px;
+    font-size: 49px;
     text-transform: uppercase;
     margin-top: 10px;
+    font-weight: bold;
 }
