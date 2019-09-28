@@ -23,7 +23,6 @@
 .contacts__contact a {
     text-decoration: none;
     color: black;
-    border-bottom: 3px solid #2196F3;
     font-weight: 700;
 }
 
