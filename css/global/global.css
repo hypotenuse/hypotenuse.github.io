@@ -7,23 +7,11 @@
     transition: all 1s ease;
 }
 
-#header-section,
-#brief-section,
-#contacts-section,
-#education-section,
-#experience-section {
-    -webkit-transition: all .25s;
-    transition: all .25s;
-    opacity: 0;
-}
-
 .circlebox {
     position: absolute;
     width: 15px;
     height: 15px;
     border-radius: 100px;
-    -webkit-transition: all .55s;
-    transition: all .55s;
 }
 
 .sp_J3aXknEsZiY {

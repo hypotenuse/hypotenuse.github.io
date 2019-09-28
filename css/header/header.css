@@ -2,30 +2,29 @@
 
 .header {
     width: 100%;
+    height: 180px;
     font-family: 'Open Sans';
     background-color: black;
     margin-top: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 50px;
-}
-
-.header__icon  {
-    width: 170px;
-    height: 170px;
-    border-radius: 100%;
-    overflow: hidden;
-}
-
-.header__icon,
-.header__lastedtit {
-    margin: 0 auto;
 }
 
 .header__lastedtit {
     width: 800px;
-    margin-top: 50px;
+    margin: 0 auto;
+    padding: 60px 0 60px;
     font-size: 19px;
     color: white;
+}
+
+.header__lastedtit #s1,
+.header__lastedtit #s2,
+.header__lastedtit #s3,
+.header__lastedtit #s4 {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    opacity: 0;
 }

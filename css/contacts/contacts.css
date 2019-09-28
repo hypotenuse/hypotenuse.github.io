@@ -2,7 +2,7 @@
 
 .contacts {
     font-family: "Open Sans";
-    margin-top: 35px;
+    margin-top: 70px;
 }
 
 .contacts__wrapper {
@@ -24,6 +24,7 @@
     text-decoration: none;
     color: black;
     font-weight: 700;
+    border-bottom: 3px solid #2196F3;
 }
 
 .contacts__contact a:hover {

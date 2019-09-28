@@ -2,22 +2,20 @@
 (() => {
     const get = id => document.getElementById(id)
 
-    const headerSection = get('header-section')
-    const briefSection = get('brief-section')
-    const contactsSection = get('contacts-section')
-    const educationSection = get('education-section')
-    const experienceSection = get('experience-section')
+    const s1 = get('s1')
+    const s2 = get('s2')
+    const s3 = get('s3')
+    const s4 = get('s4')
 
-    const delay1 = 300
-    const delay2 = 300 * 3.5
-    const delay3 = 300 * 4.75
-    const delay4 = 300 * 5.5
-    const delay5 = 300 * 6.25
+    const delay0 = 500
+    const delay1 = 1000
+    const delay2 = 3000
+    const delay3 = 5000
+    const delay4 = 7000
 
+    setTimeout(() => s1.style.opacity = '1', delay1)
+    setTimeout(() => s2.style.opacity = '1', delay2)
+    setTimeout(() => s3.style.opacity = '1', delay3)
+    setTimeout(() => s4.style.opacity = '1', delay4)
 
-    setTimeout(() => headerSection.style.opacity = 1, delay1)
-    setTimeout(() => briefSection.style.opacity = 1, delay2)
-    setTimeout(() => contactsSection.style.opacity = 1, delay3)
-    setTimeout(() => educationSection.style.opacity = 1, delay4)
-    setTimeout(() => experienceSection.style.opacity = 1, delay5)
-})()
+})() 
