@@ -16,7 +16,7 @@
 
 .brief__phwrapper {
     width: 265px;
-    height: 450px;
+    height: 300px;
     border-radius: 4px;
     overflow: hidden;
     position: relative;
@@ -90,15 +90,10 @@
     line-height: 1.2;
 }
 
-.brief__text p:last-child {
-    margin-top: 29px;
-}
-
 .brief__text b { font-weight: 700; }
 
 .brief__fullname {
-    font-size: 42px;
+    font-size: 19px;
     text-transform: uppercase;
-    margin-top: 10px;
     font-weight: bold;
 }

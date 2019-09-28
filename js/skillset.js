@@ -35,4 +35,6 @@ const initializeCircleBoxes = (circleParams) => {
     }
 }
 
-initializeCircleBoxes({ bg: '#ccc', bgHover: '#4a86e8' })
+document.addEventListener('DOMContentLoaded', () => {
+    initializeCircleBoxes({ bg: '#ccc', bgHover: '#4a86e8' })
+})
