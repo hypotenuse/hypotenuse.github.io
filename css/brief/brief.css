@@ -9,9 +9,25 @@
     vertical-align: middle;
 }
 
-.brief__rwrapper { 
-    width: 480px;
+.brief__rwrapper {
+    position: relative;
+    width: 399px;
     margin-left: 37px;
+    background: #ddd;
+    padding: 30px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.brief__rwrapper:before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: -12px;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #ddd transparent transparent;
 }
 
 .brief__phwrapper {
