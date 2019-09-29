@@ -45,7 +45,7 @@ const prepareTimelineContainer = (lineStyle, circleStyle) => {
             }
         }
         const SVGElement = create('svg', SVGElementNS)
-        SVGElement.setAttribute('width', containerWidth - 40)
+        SVGElement.setAttribute('width', containerWidth - 20)
         SVGElement.setAttribute('height', containerHeight)
         SVGElement.appendChild(createSVGLine(undefined, 0, containerHeight / 2, containerWidth, containerHeight / 2, lineStyle))
         

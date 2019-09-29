@@ -6,7 +6,7 @@
 .brief__lwrapper,
 .brief__rwrapper {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .brief__rwrapper { 
@@ -86,7 +86,7 @@
 
 .brief__about {
     margin-top: 8px;
-    font-size: 15px;
+    font-size: 16px;
     color: black;
 }
 
@@ -96,9 +96,3 @@
 }
 
 .brief__text b { font-weight: 700; }
-
-.brief__fullname {
-    font-size: 19px;
-    text-transform: uppercase;
-    font-weight: bold;
-}

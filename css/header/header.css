@@ -1,30 +1,31 @@
 
 
 .header {
-    width: 100%;
-    height: 180px;
-    font-family: 'Open Sans';
-    background-color: black;
     margin-top: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.header__lastedtit {
-    width: 800px;
-    margin: 0 auto;
-    padding: 60px 0 60px;
-    font-size: 19px;
-    color: white;
-}
-
-.header__lastedtit #s1,
-.header__lastedtit #s2,
-.header__lastedtit #s3,
-.header__lastedtit #s4 {
+    opacity: 0;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    font-weight: 300;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+.header b { font-weight: 600; }
+
+.header #s1,
+.header #s2,
+.header #s3 {
     opacity: 0;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.header__wrapper {
+    width: 800px;
+    padding: 40px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
