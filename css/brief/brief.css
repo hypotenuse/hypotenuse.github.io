@@ -16,7 +16,7 @@
 
 .brief__phwrapper {
     width: 265px;
-    height: 300px;
+    height: 395px;
     border-radius: 4px;
     overflow: hidden;
     position: relative;
@@ -66,7 +66,6 @@
 
 .brief__occupation {
     padding: 10px 0;
-    font-size: 19px;
 }
 
 .brief__occupation ul {
@@ -76,13 +75,19 @@
 
 .brief__occupation ul li { 
     list-style: none;
-    padding: 3px 0;
+    padding: 10px;
+    background: #ddd;
+    margin: 10px 5px 0 0;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 .brief__about {
     margin-top: 8px;
     font-size: 15px;
-    color: rgb(150, 150, 150);
+    color: black;
 }
 
 .brief__text {
