@@ -84,4 +84,4 @@ const prepareTimelineContainer = (lineStyle, circleStyle) => {
     for (let i = 0; i < nodes.length; i++) if (nodes[i].hasAttribute(timelineContainerAttribute)) initTimeline(nodes[i])
 }
 
-prepareTimelineContainer('stroke:#cccccc;stroke-width:2', {r: 6, fill: '#aaaaaa'})
+prepareTimelineContainer('stroke:#cccccc;stroke-width:2', {r: 7, fill: '#aaaaaa'})

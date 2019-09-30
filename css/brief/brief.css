@@ -14,7 +14,7 @@
     width: 399px;
     height: 395px;
     margin-left: 37px;
-    background: #ddd;
+    background: black;
     padding: 30px;
     color: white;
     box-sizing: border-box;
@@ -28,7 +28,7 @@
     left: -12px;
     border-style: solid;
     border-width: 15px 15px 15px 0;
-    border-color: transparent #ddd transparent transparent;
+    border-color: transparent black transparent transparent;
 }
 
 .brief__phwrapper {
@@ -104,7 +104,7 @@
 .brief__about {
     margin-top: 8px;
     font-size: 16px;
-    color: black;
+    color: white;
 }
 
 .brief__text {

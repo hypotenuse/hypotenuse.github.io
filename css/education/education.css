@@ -2,6 +2,8 @@
 .education {
     position: relative;
     width: 800px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .education__container {
