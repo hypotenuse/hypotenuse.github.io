@@ -2,28 +2,21 @@
 
 .header {
     margin-top: 0;
-    opacity: 0;
     width: 100%;
     font-family: 'Open Sans';
-    font-size: 32px;
-    font-weight: 300;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
 }
 
 .header b { font-weight: 600; }
 
 .header #s1,
-.header #s2,
-.header #s3 {
-    opacity: 0;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
+.header #s2 { font-size: 32px; }
 
-.header #s3 { font-size: 18px; }
+.header #s3 {
+    font-size: 18px;
+    margin-top: 20px;
+    display: block;
+}
+.header #s1 { font-weight: 300; }
 
 .header__wrapper {
     width: 800px;

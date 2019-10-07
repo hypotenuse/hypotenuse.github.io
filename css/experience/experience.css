@@ -8,12 +8,12 @@
 
 .experience a {
     text-decoration: none;
-    color: #106bcc;
+    color: black;
     font-weight: 700;
 }
 
 .experience a:hover {
-    color: #3991ef;
+    color: black;
 }
 
 .experience__lwrapper,
@@ -62,8 +62,6 @@
 }
 
 .experience__position {
-    font-size: 19px;
-    width: 300px;
     padding: 10px 0;
     text-transform: uppercase;
 }

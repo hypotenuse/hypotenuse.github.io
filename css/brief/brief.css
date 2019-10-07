@@ -1,6 +1,7 @@
 
 .brief {
     width: 800px;
+    font-family: "Open Sans";
 }
 
 .brief__lwrapper,
@@ -11,29 +12,17 @@
 
 .brief__rwrapper {
     position: relative;
-    width: 399px;
-    height: 395px;
+    width: 400px;
     margin-left: 37px;
-    background: black;
-    padding: 30px;
-    color: white;
+    color: black;
     box-sizing: border-box;
     border-radius: 4px;
 }
-
-.brief__rwrapper:before {
-    content: "";
-    position: absolute;
-    top: 60px;
-    left: -12px;
-    border-style: solid;
-    border-width: 15px 15px 15px 0;
-    border-color: transparent black transparent transparent;
-}
+ 
 
 .brief__phwrapper {
     width: 265px;
-    height: 395px;
+    height: 550px;
     border-radius: 4px;
     overflow: hidden;
     position: relative;
@@ -73,12 +62,6 @@
 .brief__phwrapper:hover:before,
 .brief__phwrapper:hover:after {
     opacity: 1;
-}
-
-.brief__fullname,
-.brief__occupation,
-.brief__about { 
-    font-family: "Open Sans";
 }
 
 .brief__occupation {

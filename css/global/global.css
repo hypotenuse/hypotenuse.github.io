@@ -7,15 +7,6 @@
     transition: all 1s ease;
 }
 
-#brief-section,
-#education-section,
-#experience-section {
-    opacity: 0;
-    -webkit-transition: all .35s ease;
-    -moz-transition: all .35s ease;
-    transition: all .35s ease;
-}
-
 .circlebox {
     position: absolute;
     width: 15px;
