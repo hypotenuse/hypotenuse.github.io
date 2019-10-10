@@ -5,6 +5,8 @@
     font-family: "Open Sans";
 }
 
+.contacts__wrapper { margin-left: 25px; }
+
 .contacts__contact {
     padding: 5px 4px;
     display: inline-block;

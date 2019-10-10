@@ -2,7 +2,11 @@
 .brief {
     width: 800px;
     font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 1.4;
 }
+
+.brief p { margin-left: 25px; }
 
 .brief__lwrapper,
 .brief__rwrapper {
@@ -95,4 +99,4 @@
     line-height: 1.2;
 }
 
-.brief__text b { font-weight: 700; }
+.brief b { font-weight: 700; }
